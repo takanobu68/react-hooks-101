@@ -26,7 +26,7 @@ const EventForm = () => {
     dispatch({
       type: ADD_OPERATION_LOG,
       description: 'イベントを作成しました',
-      operatidAt: timeCurrentIso8601,
+      operatedAt: timeCurrentIso8601,
     });
     setTitle('');
     setBody('');
